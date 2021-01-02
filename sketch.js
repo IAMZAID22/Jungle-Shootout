@@ -80,13 +80,13 @@ function draw() {
     pla2.velocityY = pla2.velocityY + 0.8;
   
   if(keyDown("a")){
-    pla1.x = pla1.x -2;
+    pla1.x = pla1.x -4;
     dir = "a";
     pla1.addImage(p2la1Img);
     
   }
   if(keyDown("d")){
-    pla1.x = pla1.x +2;
+    pla1.x = pla1.x +4;
     dir = "d";
     pla1.addImage(pla1Img);
   }
