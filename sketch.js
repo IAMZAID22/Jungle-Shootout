@@ -231,11 +231,11 @@ function draw() {
      bl2.velocityX = 0;
   
    }
-  if(he1  <0){
+  if(he1  =0){
     GameState =End;
     pla1.visible = false;
   }
-     if(he2  <0){
+     if(he2  =0){
     GameState =End;
     pla2.visible = false;
   }
