@@ -246,11 +246,11 @@ pla1.x  = 100;
   }
     if(pla1.x >650){
 pla1.x  = 100;
-    pla.y = 345;
+    pla1.y = 345;
   }
    if(pla1.y <0){
 pla1.x  = 100;
-    pla.y = 345;
+    pla1.y = 345;
   }
    pla1.collide(ground);
    pla1.collide(ob1);
