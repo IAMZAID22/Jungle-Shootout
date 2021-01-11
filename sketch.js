@@ -234,10 +234,16 @@ function draw() {
   if(he1  <0){
     GameState =End;
     pla1.visible = false;
+    textSize(35);
+    fill(255);
+    text("Player 2 Wins",325,225);
   }
      if(he2 <0){
     GameState =End;
     pla2.visible = false;
+       textSize(35);
+    fill(255);
+    text("Player 1 Wins",325,225);
   }
   }
   if(pla1.x <0){
